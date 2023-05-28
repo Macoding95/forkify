@@ -119,5 +119,6 @@ const init = function () {
   paginationView.addHandlerClick(controlPagination);
   booksmarksView.addHandlerRender(controlBookmarks);
   addRecipeView.addHandlerUpload(controlAddRecipe);
+  console.log('From the other branch');
 };
 init();
